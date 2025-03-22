@@ -3,6 +3,8 @@ import pandas as pd
 import joblib
 import numpy as np
 
+
+
 # Dictionary untuk pemilihan model
 muat_model_xg = joblib.load("model_rasio_testing_20extremegradientboostingregressor.joblib")
 
